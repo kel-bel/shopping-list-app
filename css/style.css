@@ -1,0 +1,140 @@
+html, body {
+	height:100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7ff;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+	line-height: 1
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+div {
+	/* border: 1px solid chocolate; */ 
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0 1rem;
+	min-width: 37.5rem; 
+	width: 900px;
+}
+
+/*Logo Appearance */
+.logo {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Input Field */
+form#useradd {
+    text-align: center;
+}
+
+.inputbox {
+	-webkit-appearance: textfield;
+	background-color: #f7f7ff;
+	width: 50%;
+	-webkit-user-select: text;
+	cursor: auto;
+	border-width: 2px;
+	border-style: inset;
+	border-color: #070600;
+	border-radius: 6px;
+	font-size: 2rem;
+}
+
+.additem {
+	background-color: #EA526F;
+	cursor: pointer;
+	border:none;
+	display: inline-block;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+	font-size: 2rem;
+	color:#f7f7ff;
+	box-shadow: none;
+}
+
+/* The List Appaerance */
+.listcontainer {
+	border-width: 2px;
+	border: 3px dashed #EA526F;
+	border-radius: 6px
+}
+
+.listtitle {
+	border: none;
+	border-radius: 6px;
+	background-color: #EA526F;
+	color: #f7f7ff;
+	box-shadow: none;
+	text-align: center;
+	margin: 0.625rem 0.625rem;
+}
+
+h1 {
+	font-family: 'Yeseva One', sans-serif;
+	font-size: 2.35rem;
+	padding: 1rem;
+	letter-spacing: 0.15rem;
+}
+
+.listcontainer .grocery {
+	color: #070600;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1.25rem;
+	letter-spacing: 0.03rem
+	margin-top:0.625rem;
+}
+
+.listcontainer .grocery > li {
+    padding: 0.937rem;
+}
+
+/* Footer Button Appearance */
+.buttons .options {
+	font-family: 'Merriweather', sans-serif;
+	color: #f7f7ff;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.buttons .options > button {
+	background-color: #EA526F;
+	border:none;
+	display: inline-block;
+	border-radius: 2.5rem;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin: 1.25rem 15px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.buttons .options > button:hover {
+	cursor: pointer;
+}
+
+p {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 0.9rem;
+	color: #EA526F;
+	text-align: center;
+	padding: 1rem;
+	font-style: italic;
+}
