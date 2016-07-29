@@ -111,6 +111,7 @@ h1 {
 	font-size: 1rem;
 	font-style: italic;
 	font-weight: 100;
+	text-align: center;
 }
 
 .buttons .options > button {
@@ -121,9 +122,12 @@ h1 {
 	width: 4.5rem;
 	height: 4.5rem;
 	margin: 1.25rem 15px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	/* position: relative; */
+	/* top: 50%; */
+	/* transform: translateY(-50%); */
+	line-height: 1em;
+	min-height: 72px;
+	vertical-align: bottom;
 }
 
 .buttons .options > button:hover {
@@ -137,4 +141,8 @@ p {
 	text-align: center;
 	padding: 1rem;
 	font-style: italic;
+}
+
+.options > button:nth-child(2) {
+	margin-top: 3rem;
 }
