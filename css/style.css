@@ -118,7 +118,7 @@ h1 {
 	border-radius: 6px;
 }
 
-.listcontainer .grocery > li.line {
+.listcontainer .grocery > li.linethrough {
 	text-decoration: line-through;
 }
 
