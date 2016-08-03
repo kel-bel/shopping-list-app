@@ -8,17 +8,21 @@ $(document).ready(function() {
 		}
 		//otherwise text appended as a li to shopping list
 		else {
+			console.log(something);
 			$('.listcontainer ul').append("<li class='current-item'><img class='checked' src='images/check-mark.png'/>" + "" + something + "" + "<img class='crossed' src='images/cross.png'/></li>");
 		};
-		//enter key hit 
-		$(document).keydown(function(e) {
-			if (e.keyCode == 13) {
-				$('.listcontainer ul').append("<li class='current-item'><img class='checked' src='images/check-mark.png'/>" + "" + something + "" + "<img class='crossed' src='images/cross.png'/></li>");
-			};			
-		});
+		
+
 	//resets the textbox after item entered
 	$('#useradd')[0].reset();
 	});
+	//enter key hit 
+	// $(document).keydown(function(e, something) {
+			// if (e.keyCode == 13) {
+				// console.log('two-' + something);
+				// $('.listcontainer ul').append("<li class='current-item'><img class='checked' src='images/check-mark.png'/>" + "" + something + "" + "<img class='crossed' src='images/cross.png'/></li>");
+			// };			
+	// });
 });
 
 //functions to delete and striketrough code
