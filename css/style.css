@@ -40,6 +40,7 @@ img {
 /*Logo Appearance */
 .logo {
 	display: block;
+	top:0; bottom:0; left:0; right:0;
 	margin: 0 auto;
 }
 
@@ -136,7 +137,7 @@ img.crossed {
 }
 
 /* Footer Button Appearance */
-.buttons .options {
+/*.buttons .options {
 	font-family: 'Merriweather', sans-serif;
 	color: #f7f7ff;
 	font-size: 1rem;
@@ -157,7 +158,7 @@ img.crossed {
 	/* position: relative; */
 	/* top: 50%; */
 	/* transform: translateY(-50%); */
-	text-align: center;
+	/*text-align: center;
 	vertical-align: top;
 }
 
@@ -176,4 +177,21 @@ p {
 
 .options > button:nth-child(2) {
 	margin-top: 3.625rem; 
+} */
+
+/* <====== Media Queries =====================================> */
+
+/* 960px or smaller */
+/* e.g. iPad Portrait */
+/* Portfolio with 2 column layout */
+@media only screen and (max-width: 960px) {
+
+	header {
+		width: 100%;
+	}
+	
+	.enter .content .inputbox {
+		width: 60%;
+		height: 40px;
+	}
 }
