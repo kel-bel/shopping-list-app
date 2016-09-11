@@ -226,7 +226,9 @@ p {
 	}
 
 	.additem {
-		font-size: 25px;
+		font-size: 22px;
+		padding: 0;
+		text-align: center;
 	}
 
 	/*== Within the list ==*/
