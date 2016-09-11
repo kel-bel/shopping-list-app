@@ -186,12 +186,11 @@ p {
 /* Portfolio with 2 column layout */
 @media only screen and (max-width: 960px) {
 
-	header {
-		width: 100%;
+	#container {
+		padding: 0;
 	}
-	
-	.enter .content .inputbox {
-		width: 60%;
-		height: 40px;
+
+	.content {
+		width: 10%;
 	}
 }
