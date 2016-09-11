@@ -50,10 +50,26 @@ form#useradd {
     text-align: center;
 }
 
+.content .textbox {
+	display: block;
+	width: 80%;
+	margin: 0;
+	float: left;
+	padding: 15px 0;
+}
+
+.content .plusbox {
+	display: block;
+	width: 20%;
+	margin: 0;
+	float: right;
+	padding: 15px 0;
+}
+
 .inputbox {
 	-webkit-appearance: textfield;
 	background-color: #f7f7ff;
-	width: 50%;
+	width: 80%;
 	-webkit-user-select: text;
 	cursor: auto;
 	border-width: 2px;
@@ -61,6 +77,7 @@ form#useradd {
 	border-color: #070600;
 	border-radius: 6px;
 	font-size: 2rem;
+
 }
 
 .additem {
@@ -71,13 +88,17 @@ form#useradd {
 	border-radius: 40px;
 	width: 40px;
 	height: 40px;
-	margin: 40px 5px;
-	font-size: 2rem;
+	font-size: 30px;
 	color:#f7f7ff;
 	box-shadow: none;
 }
 
 /* The List Appaerance */
+section.list {
+    display: block;
+    margin-top: 80px;
+}
+
 .listcontainer {
 	border-width: 2px;
 	border: 3px dashed #EA526F;
@@ -192,7 +213,7 @@ p {
 	}
 
 	.content {
-		padding: 0 5%;
+		padding: 0 2%;
 		width: 98%;
 	}
 
