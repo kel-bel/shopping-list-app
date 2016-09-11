@@ -85,7 +85,7 @@ form#useradd {
 	cursor: pointer;
 	border:none;
 	display: inline-block;
-	border-radius: 40px;
+	border-radius: 100px;
 	width: 40px;
 	height: 40px;
 	font-size: 30px;
@@ -223,6 +223,10 @@ p {
 		width: 100%;
 		font-size: 20px;
 		height: 40px;
+	}
+
+	.additem {
+		font-size: 20px;
 	}
 
 	/*== Within the list ==*/
