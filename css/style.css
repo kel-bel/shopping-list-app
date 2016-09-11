@@ -184,13 +184,14 @@ p {
 /* 960px or smaller */
 /* e.g. iPad Portrait */
 /* Portfolio with 2 column layout */
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 
 	#container {
 		padding: 0;
 	}
 
 	.content {
-		width: 10%;
+		padding: 0 5%;
+		width: 98%;
 	}
 }
