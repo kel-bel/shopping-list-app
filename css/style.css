@@ -4,7 +4,7 @@ html, body {
 	height:100%;
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
-	line-height: 1
+	line-height: 1;
 	background-color: #f7f7ff;
 }
 
@@ -33,7 +33,6 @@ img {
 .content {
 	margin: 0 auto;
 	padding: 0 1rem;
-	min-width: 37.5rem; 
 	width: 900px;
 }
 
@@ -195,5 +194,20 @@ p {
 	.content {
 		padding: 0 5%;
 		width: 98%;
+	}
+
+	input.inputbox {
+		line-height: 20px;
+		width: 80%;
+		font-size: 20px;
+		height: 40px;
+	}
+
+	.listcontainer .grocery {
+		font-size: 14px;
+	}	
+
+	img.checked, img.crossed {
+		margin: 0;
 	}
 }
